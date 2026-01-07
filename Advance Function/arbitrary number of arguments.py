@@ -1,7 +1,7 @@
 def add(*a):
     return sum(a)
 
-print(add(1, 2, 3,4,7,8,5,3,2,4,6,5))  
+print(add(1,2,3,4,7,8,5,3,2,4,6,5))  
 
 
 
@@ -13,4 +13,8 @@ def show(**a):
 
 show(a=10, b=20, c=30)
 
+
+n = [1, 2, 3, 4, 5, 6]
+even = filter(lambda x: x % 2 == 0, n)
+print(list(even))
 
