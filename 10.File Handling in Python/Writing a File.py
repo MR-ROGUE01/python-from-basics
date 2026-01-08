@@ -1,0 +1,6 @@
+file = open("raj.txt","w+")
+file.write("Adding some new content to Raj's file.\nHe is progressing well in Python file handling.")
+file.seek(0)
+content = file.read()
+print(content)
+file.close()

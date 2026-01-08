@@ -1,0 +1,6 @@
+file = open("Guidelines of CA1_AIML.pdf", "r")
+print("File name : ",file.name)
+print("File Mode:",file.mode)
+print("File is closed:",file.closed)
+file.close()
+print("File Status:",file.closed)
